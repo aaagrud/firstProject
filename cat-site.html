@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h2>Photos of Cats!</h2>
+        <main>
+            <h3>Powered by The Cat Photos App.</h3>
+            <!--Add links to Cat photos here-->
+            <p>Click here for more cat photos: <a href="#" target="_blank">cat photos</a>.</p>
+            <img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=400" alt="A beautiful white cat">
+            <h3>Cat lists:</h3>
+            <p>Things cats <em>love</em>:</p>
+            <ul>
+                <li>catnip</li>
+                <li>chasing lasers</li>
+                <li>lasagna</li>
+            </ul>
+            <img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=400" alt="same old cat" width="100" height="100">
+            <p>Things cats <strong>hate</strong>:</p>
+            <ol>
+                <li>me</li>
+                <li>bathing</li>
+                <li>dogs</li>
+            </ol>
+            
+            <form action="/submit-cat-photo">
+                <p><strong>Cats can be</strong>:
+                    <label for="indoor">
+                        <input id="indoor" type="radio" name="indoor-outdoor">indoor
+                    </label>
+                    <label for="outdoor">
+                        <input id="outdoor" type="radio" name="indoor-outdoor">outdoor
+                    </label><br>
+                    <h4>Personality Traits:</h4>
+                    <label for="loving"><input id="loving" type="checkbox" name="personallity">Hating</label><br>
+                    <label for="loving"><input id="loving" type="checkbox" name="personallity">Loving</label><br>
+                    <label for="loving"><input id="loving" type="checkbox" name="personallity" checked>Do not give a fuck</label><br>
+
+                <h4>Find Cats!</h4>
+                </p>
+                <input type="text" placeholder='Search specific cats!' required>
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </main>
+    </body>
+</html>
